@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PhpProjectServersManager">
+    <servers>
+      <server host="homestead.test" id="d04de2cb-c697-4602-88b0-da5bc4ee3ffb" name="homestead-server" use_path_mappings="true">
+        <path_mappings>
+          <mapping local-root="$PROJECT_DIR$" remote-root="/home/vagrant/code/homesteadtest" />
+        </path_mappings>
+      </server>
+    </servers>
+  </component>
+</project>
