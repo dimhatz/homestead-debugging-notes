@@ -12,13 +12,18 @@ keys:
 folders:
     - map: ~/PhpstormProjects/homesteadtest
       to: /home/vagrant/code/homesteadtest
+    - map: ~/PhpstormProjects/php-notes
+      to: /home/vagrant/code/php-notes
 
 sites:
     - map: homestead.test
       to: /home/vagrant/code/homesteadtest/public
+    - map: phpnotes.test
+      to: /home/vagrant/code/php-notes/public
 
 databases:
     - homesteadtest
+    - phpnotes
 
 # ports:
 #     - send: 50000
